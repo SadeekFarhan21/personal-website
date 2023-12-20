@@ -314,89 +314,17 @@ section {
   margin: auto 0;
 }
 
-/* experience-page-1-page-1 SECTION */
-
-#experience-page-1-page-1 {
-  position: relative;
-}
-
-.experience-page-1-page-1-sub-title {
-  color: rgb(85, 85, 85);
-  font-weight: 600;
-  font-size: 1.75rem;
-  margin-bottom: 2rem;
-}
-
-.experience-page-1-page-1-details-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.article-container {
-  display: flex;
-  text-align: initial;
-  flex-wrap: wrap;
-  flex-direction: row;
-  gap: 2.5rem;
-  justify-content: space-around;
-}
-
-article {
-  display: flex;
-  width: 10rem;
-  justify-content: space-around;
-  gap: 0.5rem;
-}
-
-article .icon {
-  cursor: default;
-}
-
 /* EXPERIENCE SECTION */
-
-
-
-.section-container {
-  display: flex;
-}
-
 
 #experience {
   position: relative;
 }
 
-.experience-sub-title {
-  color: rgb(85, 85, 85);
-  font-weight: 600;
-  font-size: 1.75rem;
-  margin-bottom: 2rem;
-}
-
 .experience-details-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
-}
-
-.article-container {
-  display: flex;
-  text-align: initial;
-  flex-wrap: wrap;
-  flex-direction: row;
-  gap: 2.5rem;
-  justify-content: space-around;
-}
-
-article {
-  display: flex;
-  width: 10rem;
-  justify-content: space-around;
-  gap: 0.5rem;
-}
-
-article .icon {
-  cursor: default;
 }
 
 .section {
@@ -413,13 +341,13 @@ article .icon {
   font-size: 1.75rem;
   margin-bottom: 1rem;
   display: flex;
-  justify-content: space-between; /* Align title and duration on the same line */
+  justify-content: space-between;
 }
 
 .experience-duration {
-  font-weight: 400; /* Adjust the font weight */
-  font-size: 1.5rem; /* Adjust the font size */
-  margin-left: auto; /* Push the duration to the right */
+  font-weight: 500; 
+  font-size: 1.2rem;
+  margin-left: auto;
 }
 
 .experience-company {
@@ -432,6 +360,29 @@ article .icon {
   margin-bottom: 1rem;
 }
 
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+article {
+  display: flex;
+  width: 10rem;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
+article .icon {
+  cursor: default;
+}
+
+.section-container {
+  display: flex;
+}
 
 /* EDUCATION SECTION */
 
@@ -439,14 +390,14 @@ article .icon {
   position: relative;
 }
 
-.education-sub-title {
+.education1-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
 }
 
-.education-details-container {
+.education1-details-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
