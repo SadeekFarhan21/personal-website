@@ -355,6 +355,13 @@ article .icon {
 
 /* EXPERIENCE SECTION */
 
+
+
+.section-container {
+  display: flex;
+}
+
+
 #experience {
   position: relative;
 }
@@ -392,24 +399,19 @@ article .icon {
   cursor: default;
 }
 
-.experience-sub-title {
-  color: rgb(85, 85, 85);
-  font-weight: 600;
-  font-size: 1.75rem;
-  margin-bottom: 2rem;
-  display: flex;
-  justify-content: space-between; /* Align title and duration on the same line */
-}
-
-.experience-duration {
-  margin-left: auto; /* Push the duration to the right */
+.section {
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
 }
 
 .experience-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   display: flex;
   justify-content: space-between; /* Align title and duration on the same line */
 }
@@ -418,6 +420,16 @@ article .icon {
   font-weight: 400; /* Adjust the font weight */
   font-size: 1.5rem; /* Adjust the font size */
   margin-left: auto; /* Push the duration to the right */
+}
+
+.experience-company {
+  font-style: italic;
+  font-size: 1rem;
+  margin-bottom: auto;
+}
+
+.experience-description {
+  margin-bottom: 1rem;
 }
 
 
