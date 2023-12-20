@@ -385,17 +385,18 @@ article .icon {
   position: relative;
 }
 
-.education1-sub-title {
+.education-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0.2rem;
 }
 
-.education1-details-container {
+.education-details-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
 }
 
 .article-container {
@@ -554,4 +555,12 @@ li {
 .desc {
   text-align: left;
   margin-bottom: 0.4rem;
+}
+
+.relevant-coursework {
+  margin-bottom: 0rem;
+}
+
+.courses {
+  margin-top: 0.2rem;
 }
