@@ -542,10 +542,16 @@ b {
 
 ul {
   margin: 1rem;
-  font-weight: bold;
-  color: rgb(44, 44, 44);
+  color: rgb(70, 70, 70);
+  text-align: center;
 }
 
 li {
   text-align: left;
+  font-weight: bold;
+}
+
+.desc {
+  text-align: left;
+  margin-bottom: 0.4rem;
 }
