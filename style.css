@@ -190,7 +190,7 @@ section {
 }
 
 .section__text__p2 {
-  font-size: 1.75rem;
+  font-size: 1.3rem;
   margin-bottom: 1rem;
 }
 
@@ -538,4 +538,14 @@ footer p {
 
 b {
   font-weight: 900;
+}
+
+ul {
+  margin: 1rem;
+  font-weight: bold;
+  color: rgb(44, 44, 44);
+}
+
+li {
+  text-align: left;
 }
