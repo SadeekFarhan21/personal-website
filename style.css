@@ -451,7 +451,8 @@ article .icon {
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  justify-content: left;
+  align-items: flex-start;
   gap: 0.5rem;
 }
 
